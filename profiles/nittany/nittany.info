@@ -1,0 +1,204 @@
+; Packaging information for nittany
+name = "Nittany"
+description = "Distribution created for learning about Drupal through hands on activities"
+exclusive = "1"
+core = "7.x"
+; ----------
+; Dependencies
+; ----------
+; Administration
+dependencies[] = admin_devel
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = admin_theme
+; Advanced CSS/JS Aggregation
+dependencies[] = advagg
+dependencies[] = advagg_bundler
+; Chaos tool suite
+dependencies[] = ctools
+; Context
+dependencies[] = context
+dependencies[] = context_condition_theme
+dependencies[] = context_ui
+; Core
+dependencies[] = block
+dependencies[] = color
+dependencies[] = contextual
+dependencies[] = dblog
+dependencies[] = field
+dependencies[] = field_sql_storage
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = filter
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = node
+dependencies[] = number
+dependencies[] = options
+dependencies[] = overlay
+dependencies[] = path
+dependencies[] = rdf
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = system
+dependencies[] = taxonomy
+dependencies[] = text
+dependencies[] = update
+dependencies[] = user
+; Date/Time
+dependencies[] = date
+dependencies[] = date_api
+dependencies[] = date_popup
+dependencies[] = date_views
+; Fields
+dependencies[] = entityreference
+dependencies[] = field_group
+dependencies[] = field_validation
+dependencies[] = field_validation_ui
+dependencies[] = select_or_other
+; Input filters
+dependencies[] = typogrify
+dependencies[] = video_filter
+; Media
+dependencies[] = imce
+dependencies[] = imce_crop
+dependencies[] = imce_mkdir
+; Node form columns
+dependencies[] = nodeformcols
+; Other
+dependencies[] = advanced_help
+dependencies[] = backup_migrate
+dependencies[] = better_formats
+dependencies[] = boxes
+dependencies[] = diff
+dependencies[] = entity
+dependencies[] = entity_token
+dependencies[] = entitycache
+dependencies[] = libraries
+dependencies[] = masquerade
+dependencies[] = menu_block
+dependencies[] = module_filter
+dependencies[] = pathauto
+dependencies[] = stringoverrides
+dependencies[] = strongarm
+dependencies[] = token
+dependencies[] = transliteration
+; Permissions
+dependencies[] = hidden_nodes
+; Spark
+dependencies[] = edit
+; Textbook
+dependencies[] = textbook
+; Theme Tools
+dependencies[] = delta
+dependencies[] = delta_blocks
+dependencies[] = delta_color
+dependencies[] = delta_ui
+dependencies[] = omega_tools
+; User interface
+dependencies[] = ckeditor_link
+dependencies[] = imce_wysiwyg
+dependencies[] = options_element
+dependencies[] = wysiwyg
+dependencies[] = wysiwyg_template
+; Views
+dependencies[] = views
+dependencies[] = views_fluid_grid
+dependencies[] = views_ui
+; Webform
+dependencies[] = webform
+; Features
+dependencies[] = features
+dependencies[] = chamfer_defaults
+dependencies[] = textbook_editor
+dependencies[] = textbook_templates
+
+; Variables
+
+variables[admin_theme] = 'rubik'
+variables[boxes_edit_location] = '2'
+variables[date_default_timezone] = 'America/New_York'
+variables[default_nodes_main] = '10'
+variables[delta_blocks_branding_logo_linked] = true
+variables[delta_blocks_branding_logo_render] = true
+variables[delta_blocks_branding_site_name_linked] = true
+variables[delta_blocks_breadcrumb_current] = true
+variables[delta_blocks_breadcrumb_title_hidden] = true
+variables[delta_blocks_logo_linked] = true
+variables[delta_blocks_site_name_linked] = true
+variables[delta_blocks_toggle][logo] = 'logo'
+variables[delta_blocks_toggle][site-name] = 'site-name'
+variables[delta_blocks_toggle][site-slogan] = 'site-slogan'
+variables[delta_blocks_toggle][branding] = 'branding'
+variables[delta_blocks_toggle][page-title] = 'page-title'
+variables[delta_blocks_toggle][breadcrumb] = 'breadcrumb'
+variables[delta_blocks_toggle][tabs] = 'tabs'
+variables[delta_blocks_toggle][messages] = 'messages'
+variables[delta_blocks_toggle][action-links] = 'action-links'
+variables[delta_blocks_toggle][feed-icons] = 'feed-icons'
+variables[filter_fallback_format] = 'plain_text'
+variables[imce_custom_content][imce_mkdir_content] = 1
+variables[imce_custom_process][imce_mkdir_process_profile] = 1
+variables[imce_profiles][1][name] = 'User-1'
+variables[imce_profiles][1][usertab] = 1
+variables[imce_profiles][1][filesize] = 0
+variables[imce_profiles][1][quota] = 0
+variables[imce_profiles][1][tuquota] = 0
+variables[imce_profiles][1][extensions] = '*'
+variables[imce_profiles][1][dimensions] = '1200x1200'
+variables[imce_profiles][1][filenum] = 0
+variables[imce_profiles][1][directories][0][name] = '.'
+variables[imce_profiles][1][directories][0][subnav] = 1
+variables[imce_profiles][1][directories][0][browse] = 1
+variables[imce_profiles][1][directories][0][upload] = 1
+variables[imce_profiles][1][directories][0][thumb] = 1
+variables[imce_profiles][1][directories][0][delete] = 1
+variables[imce_profiles][1][directories][0][resize] = 1
+variables[imce_profiles][1][directories][0][crop] = 1
+variables[imce_profiles][1][directories][0][mkdir] = 1
+variables[imce_profiles][1][directories][0][rmdir] = 1
+variables[imce_profiles][1][thumbnails][0][name] = 'Small'
+variables[imce_profiles][1][thumbnails][0][dimensions] = '90x90'
+variables[imce_profiles][1][thumbnails][0][prefix] = 'small_'
+variables[imce_profiles][1][thumbnails][0][suffix] = ''
+variables[imce_profiles][1][thumbnails][1][name] = 'Medium'
+variables[imce_profiles][1][thumbnails][1][dimensions] = '120x120'
+variables[imce_profiles][1][thumbnails][1][prefix] = 'medium_'
+variables[imce_profiles][1][thumbnails][1][suffix] = ''
+variables[imce_profiles][1][thumbnails][2][name] = 'Large'
+variables[imce_profiles][1][thumbnails][2][dimensions] = '180x180'
+variables[imce_profiles][1][thumbnails][2][prefix] = 'large_'
+variables[imce_profiles][1][thumbnails][2][suffix] = ''
+variables[imce_profiles][1][mkdirnum] = 0
+variables[imce_profiles][2][name] = 'Sample profile'
+variables[imce_profiles][2][usertab] = 1
+variables[imce_profiles][2][filesize] = 1
+variables[imce_profiles][2][quota] = 2
+variables[imce_profiles][2][tuquota] = 0
+variables[imce_profiles][2][extensions] = 'gif png jpg jpeg'
+variables[imce_profiles][2][dimensions] = '800x600'
+variables[imce_profiles][2][filenum] = 1
+variables[imce_profiles][2][directories][0][name] = 'u%uid'
+variables[imce_profiles][2][directories][0][subnav] = 0
+variables[imce_profiles][2][directories][0][browse] = 1
+variables[imce_profiles][2][directories][0][upload] = 1
+variables[imce_profiles][2][directories][0][thumb] = 1
+variables[imce_profiles][2][directories][0][delete] = 0
+variables[imce_profiles][2][directories][0][resize] = 0
+variables[imce_profiles][2][directories][0][crop] = 0
+variables[imce_profiles][2][directories][0][mkdir] = 0
+variables[imce_profiles][2][directories][0][rmdir] = 0
+variables[imce_profiles][2][thumbnails][0][name] = 'Thumb'
+variables[imce_profiles][2][thumbnails][0][dimensions] = '90x90'
+variables[imce_profiles][2][thumbnails][0][prefix] = 'thumb_'
+variables[imce_profiles][2][thumbnails][0][suffix] = ''
+variables[imce_profiles][2][mkdirnum] = 2
+variables[masquerade_admin_roles][3] = '3'
+variables[masquerade_admin_roles][1] = 0
+variables[masquerade_admin_roles][2] = 0
+variables[theme_default] = 'chamfer'
+variables[transliteration_search] = 1
+variables[user_admin_role] = '3'
+variables[user_register] = '0'
