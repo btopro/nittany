@@ -1,0 +1,13 @@
+; $Id: textbook.info
+name = "Textbook"
+description = "Provides reset style guide and classes for a standard approach to handling accessibility and content presentation with optional WYSIWYG API and Template support"
+package = "Textbook"
+core = "7.x"
+project = "textbook"
+
+; Information added by Drupal.org packaging script on 2014-01-27
+version = "7.x-4.0+6-dev"
+core = "7.x"
+project = "textbook"
+datestamp = "1390860219"
+
